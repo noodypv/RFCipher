@@ -131,7 +131,6 @@
     <ClInclude Include="APILibs.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="UIRenderer.h" />
-    <ClInclude Include="NCore.h" />
     <ClInclude Include="RFCipher.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="targetver.h" />
@@ -143,10 +142,10 @@
     <ClCompile Include="UIRenderer.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="NCore.rc" />
+    <ResourceCompile Include="RFCipher.rc" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="NCore.ico" />
+    <Image Include="RFCipher.ico" />
     <Image Include="small.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

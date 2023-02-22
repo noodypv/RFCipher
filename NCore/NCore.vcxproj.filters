@@ -24,9 +24,6 @@
     <ClInclude Include="Resource.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="NCore.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
     <ClInclude Include="APILibs.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
@@ -52,7 +49,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="NCore.rc">
+    <ResourceCompile Include="RFCipher.rc">
       <Filter>Файлы ресурсов</Filter>
     </ResourceCompile>
   </ItemGroup>
@@ -60,7 +57,7 @@
     <Image Include="small.ico">
       <Filter>Файлы ресурсов</Filter>
     </Image>
-    <Image Include="NCore.ico">
+    <Image Include="RFCipher.ico">
       <Filter>Файлы ресурсов</Filter>
     </Image>
   </ItemGroup>
